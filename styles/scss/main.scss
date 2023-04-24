@@ -1,0 +1,723 @@
+@import"colors.scss";
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100vh;
+    overflow-x:hidden;
+
+}
+.header-container{
+    width:100%;
+    height:96px;
+    max-height:96px;
+}
+.header-top{
+    height:36px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-grey;
+}
+.header-top1{
+    height:36px;
+    width:96px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin:0 36px;
+}
+.size-T1{
+    height:20px;
+    width:20px;
+}
+.iconSize-T1{
+    font-size:24px;
+}
+.header-top2{
+    height:36px;
+    width:273px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    margin:0 36px;
+}
+.header-top2 span{
+    font-size: 14px;
+}
+.header-bottom{
+    height:60px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom1{
+    margin-left: 45px;
+
+}
+.size-B1{
+    height: 60px;
+    width: 60px;
+}
+.header-bottom2{
+    height:60px;
+    width:521px;
+    display:flex;
+    align-items: center;
+    gap:18px;
+}
+.header-bottom2 span{
+    font-size:16px;
+}
+
+.header-bottom3{
+    height:60px;
+    width:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-right:40px;
+}
+ input{
+    position: relative;
+    height:30px;
+    border-radius: 15px;
+} .glass-icon{
+    position: absolute;
+    margin-left:70px;
+     margin-top:3px;
+ }
+ .size-B3{
+    font-size: 22px;
+ }
+ .Section{
+    width:100%;
+ }
+ .Title-1{
+    height:58px;
+    width:100%;
+    background-color: $light-grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .Title-1 > div > span{
+    font-size: 16px;
+ }
+ .Title-2{
+    height:42px;
+    width:1115px;
+    display:flex;
+    justify-content: space-between;
+    margin:50px auto;
+ }
+ .Title-2 > div{
+    display: flex;
+    align-items: center;
+ }
+ .Title2-Men{
+    width: 175px;
+    font-size: 24px;
+
+ }
+ .Title2-Mixed{
+    width:318px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+ }
+ .IMG-1{
+    height:888px;
+    width:1118px;
+    margin:0 auto;
+ }
+ .Title-3{
+    height:28px;
+    width:1115px;
+    margin:24px auto;
+ }
+ .Title-3 span{ 
+    font-size:24px;
+ }
+.IMG-Collection{
+    height:1016px;
+    width:1115px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.IMG-Clothing{
+    height:1016px;
+    width:551.6px;
+    background-image: url("https://assets.adidas.com/images/w_600,f_auto,q_auto/c2ab5880114a4d5db82caf1900dd0daa_9366/adidas_x_Parley_7-8_Pants_Gender_Neutral_Brown_HR6977_25_model.jpg");
+    background-size:551px 1016px;
+    display:flex;
+    align-items:flex-end
+}
+.IMG-Mixed{
+    height:1016px;
+    width:552px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.Common-Img{
+    height:500px;
+    width:552px;
+}
+
+.Sub-IMG1{
+    background-image:url("https://media.istockphoto.com/id/1303978937/photo/white-sneaker-on-a-blue-gradient-background-mens-fashion-sport-shoe-sneakers-lifestyle.jpg?s=612x612&w=0&k=20&c=L725fuzFTnm6qEaqE7Urc5q6IR80EgYQEjBn_qtBIQg=");
+    background-size:552px 500px;
+    display: flex;
+    align-items: flex-end;
+}
+.Sub-IMG2{
+    background-image:url("https://alitools.io/en/showcase/image?url=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FH16497bfc85ea41fd9194b343473e24443.jpg");
+    background-size:552px 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Internal-Div{
+    height:96px;
+    width:414px;
+    margin-bottom:40px;
+    margin-left:40px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.Internal-Div > span{
+    font-size: 20px;
+}
+.Internal-Div div{
+    height:35px;
+    width:80px;
+    background-color:$black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.Internal-Div div > span{
+    font-size: 20px;
+    color:white;
+}
+.Title-4{
+    height:52px;
+    width:1115px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:40px;
+}
+.Title4-Shop{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.Title-4 > span{
+    font-size:24px;
+}
+.Title-4 > div > span{
+    font-size: 20px;
+}
+.Title-4 > div > i {
+    font-size: 30px;
+    color:$gray90;
+}
+.Container-1{
+    height:463px;
+    width:1115px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.Container-1 > div{
+    height:463px;
+    width:365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Card1-Top{
+    height:366px;
+    width:366px;
+    background-image: url("https://rukminim1.flixcart.com/image/612/612/l47cu4w0/shoe/v/n/v/-original-imagf5zjndqztxhg.jpeg?q=70");
+    background-size:366px 366px;
+    display:flex;
+    justify-content: flex-end;
+}
+.Card1-Top > i{
+    font-size:20px;
+    color:$red;
+    margin-right:20px;
+    margin-top:20px;
+}
+.Card1-Bottom{
+    height:50px;
+    width:350px;
+}
+.Card1-Bottom > div{
+    display:flex;
+    justify-content: space-between;
+}
+.Bottom-Subtitle{
+    display: flex;
+    flex-direction: column;
+
+}
+.Card2-Top{
+    height:366px;
+    width:366px;
+    background-image: url("https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/x/q/7/-original-imagzry3hh6gzfw8.jpeg?q=70");
+    display:flex;
+    justify-content: flex-end;
+}
+.Card2-Top > i{
+    font-size:20px;
+    color:$black;
+    margin-right:20px;
+    margin-top:20px;
+}
+.Card2-Bottom{
+    height:50px;
+    width:350px;
+}
+.Card2-Bottom >div{
+    display:flex;
+    justify-content: space-between;
+}
+.Bottom2-Subtitle{
+    display: flex;
+    flex-direction: column;
+}
+.Card3-Top{
+    height:366px;
+    width:366px;
+    background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_960,c_limit/f0a04bde-ca73-405e-a895-eba7fc7cf2f2/nike-just-do-it.jpg");
+    background-size:366px 366px;
+    display:flex;
+    justify-content: flex-end;
+}
+.Card3-Top > i{
+    font-size:20px;
+    color:$black;
+    margin-right:20px;
+    margin-top:20px;
+}
+.Card3-Bottom{
+    height:50px;
+    width:350px;
+}
+.Card3-Bottom >div{
+    display:flex;
+    justify-content: space-between;
+}
+.Bottom3-Subtitle{
+    display: flex;
+    flex-direction: column;
+}
+.Title-5{
+    height:28px;
+    width:1115px;
+    margin:0 auto;
+    margin-top:150px;
+    margin-bottom:30px;
+}
+.Title-5 span{
+    font-size: 30px;
+}
+.Container-2{
+    height:580px;
+    width:1115px;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.Container-2 > div{
+    height:580px;
+    width:552px;
+}
+.Figure-1{
+    background-image: url("https://www.theathletesfoot.com.au/media/catalog/product/cache/1d9bed4adb161c46da1721fdfc39729c/c/w/cw6062-800_8_1.jpg");
+    background-size:552px 580px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Figure-2{
+    background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/284aef26-4803-460c-830d-4f41c3e32565/nike-just-do-it.jpg");
+    background-size:552px 580px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Sub2-Title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:15px;
+    margin-left:30px;
+    margin-bottom:30px;
+}
+.Sub2-Title > div{
+    display: flex;
+    flex-direction: column;
+}
+.Sub2-Title > div > span{
+    font-size:25px;
+    color:$white;
+}
+.Internal2-Div{
+    height:35px;
+    width:80px;
+    background-color:$black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.Internal2-Div > span{
+    font-size: 20px;
+    color:$white;
+}
+.Title-6{
+    height:52px;
+    width:1115px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    margin-top:100px;
+}
+.Title-6 span{
+    font-size: 24px;
+}
+.Container-3{
+    height:565px;
+    width:1115px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.Container-3 > div{
+    height:565px;
+    width:362px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Container3-IMG{
+    height:457px;
+    width:362px;
+}
+.Box-1 > .Container3-IMG{
+    background-image: url("https://i.pinimg.com/564x/85/8f/16/858f1699a0cacd95c78e82f833dffc19.jpg");
+    background-size: 362px 457px;
+}
+.Box-2 > .Container3-IMG{
+    background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a220e654-55d9-4ee6-ae05-671ae5a4b11e/sportswear-swoosh-tech-fleece-mens-pullover-hoodie-CPnmfh.png");
+    background-size: 362px 457px;
+}
+.Box-3 > .Container3-IMG{
+    background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/f95466f2-1cc2-4934-bf00-2f595dd55860/men-s-shoes-clothing-accessories.jpg");
+    background-size: 362px 457px;
+}
+.Container3-Subtitle{
+    height:98px;
+    width:330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:30px;
+}
+.Container3-Subtitle span{
+    font-size: 20px;
+}
+.Title-7{
+    height:28px;
+    width: 1115px; 
+    margin:0 auto; 
+    margin-top:150px;
+}
+.Title-7 span{
+    font-size:24px;
+}
+.Container-4{
+    height:638px;
+    width: 1115px;
+    margin:0 auto;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Container4-IMG{
+    height:415px;
+    width:1115px;
+    background-image: url("https://www.dickssportinggoods.com/protips/sports-and-activities/running/how-to-choose-running-shorts/_jcr_content/root/container/container_2/image.coreimg.jpeg/1668195935650/how-to-choose-running-shorts.jpeg");
+    background-size:1115px 415px;
+}
+.Container4-Subtitle{
+    height:176px;
+    width:836px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Subtitle4-Top{
+    height:60px;
+    width:836px;
+    display: flex;
+    justify-content: center;
+}
+.Subtitle4-Top span{
+    font-size: 60px;
+}
+.Subtitle4-Mid{
+    height:28px;
+    width:836px;
+    display: flex;
+    justify-content: center;
+}
+.Subtitle4-Mid span{
+    font-size: 20px;
+}
+.Subtitle4-Bottom{
+    height:44px;
+    width:836px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Subtitle4-Bottom div {
+    height:38px;
+    width:260px;
+    border-radius: 20px;
+    background-color:$black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Subtitle4-Bottom > div > span{
+    color:$white;
+    font-size: 17px;
+}
+.Title-8{
+    height:28px;
+    width:1115px;
+    margin:0 auto;
+    margin-top:100px;
+}
+.Title-8 span{
+    font-size:24px;
+}
+.Container-5{
+    height:542px;
+    width:1115px;
+    margin:0 auto;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.Container-5 > div{
+    height:542px;
+    width: 363px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Container5-IMG{
+    height:462px;
+    width:363px;
+}
+.Container-5 > div > span{
+    font-size:24px;
+}
+.Box5-1 >.Container5-IMG{
+    background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/8b40b5a4-e3ec-4ef2-b699-40d65aee6227/air-force-1-high-womens-shoes-vBhHD4.png");
+    background-size: 363px 462px;
+}
+.Box5-2 >.Container5-IMG{
+    background-image: url("https://www.snipes.pt/dw/image/v2/BDCB_PRD/on/demandware.static/-/Sites-snse-master-eu/default/dw2b38c5d1/1792450_P5.jpg?sw=450&sh=450&sm=fit&sfrm=png");
+    background-size: 363px 462px;
+}
+.Box5-3 >.Container5-IMG{
+    background-image: url("https://www.backcountry.com/images/items/1200/NKE/NKEW0KX/BLAWHI_D18.jpg");
+    background-size: 363px 462px;
+}
+.Container-6{
+    height:300px;
+    width:1115px;
+    margin:0 auto;
+    background-image: url("https://miro.medium.com/v2/resize:fit:900/0*9hcinRdaHicrNpNE.jpg");
+    background-size:1115px 300px;
+    margin-top:150px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Container-6 > div{
+    height:160px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+.Container-6 > div > span{
+    color:$white;
+}
+.Container-6 > div > span:nth-child(1){
+    font-size:40px;
+}
+.Sign-up-button{
+    display: flex;
+    gap:10px;
+}
+.Sign-up-button  div{
+    height:38px;
+    width:95px;
+    border-radius: 20px;
+    background-color:$white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container-7{
+    height:192px;
+    width:880px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top:150px;
+}
+.Container-7 span{
+    color:$gray46;
+}
+.Container-7 > div{
+    height:192px;
+    width:184px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.Container7-Subtitle{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.Container-8{
+    height:390px;
+    width:1115px;
+    background-color:$black;
+    margin:0 auto;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10px;
+}
+.Internal-div-top{
+    height:244px;
+    width:1030px;
+    display:flex;
+}
+.Internal-div-left{
+    height:244px;
+    width:700px;
+    display: flex;
+    gap:60px;
+}
+.Internal-div-left strong{
+    color:$white;
+    font-size: 12px;
+}
+.Internal-div-left span{
+    color:$gray46;
+    font-size:14px;
+}
+.Internal-div-left > div{
+    height:244px;
+    width:130px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.Internal-div-right{
+    height:244px;
+    width:330px;
+    display:flex;
+    justify-content: flex-end;
+    gap:10px;
+}
+.Internal-div-right i{
+    color:$gray46;
+    font-size: 30px;
+}
+.Internal-div-bottom{
+    height:90px;
+    width:1030px;
+    display: flex;
+}
+.Bottom-left{
+    height:90px;
+    width:470px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.Bottom-left{
+    color:$white;
+    font-size: 14px;
+}
+
+.Bottom-right{
+    height:90px;
+    width:560px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.Bottom-right div{
+    display:flex;
+    gap:20px;
+}
+.Bottom-right > div > span{
+    font-size:14px;
+    color:$gray46;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
